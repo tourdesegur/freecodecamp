@@ -25,9 +25,6 @@ html {
   }
 
 #home {
-    position: absolute;
-    order: 1;
-    right: 0;
     width: 100%;
     min-height: 100vh;
     padding: 100px;
@@ -130,7 +127,7 @@ html {
 }
 
 .content{
-    order: 2;
+display: block;
   }
 
 /*
