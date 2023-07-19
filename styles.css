@@ -20,8 +20,13 @@ html {
     font-size: 62.5%;
   }
 
+  body{
+    display: flex;
+  }
+
 #home {
     position: absolute;
+    order: 1;
     right: 0;
     width: 100%;
     min-height: 100vh;
@@ -124,9 +129,8 @@ html {
     color: var(--accent-green);
 }
 
-  .content{
-position: relative;
-display: flex;
+.content{
+    order: 2;
   }
 
 /*
